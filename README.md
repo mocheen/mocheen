@@ -1,15 +1,14 @@
 <!-- 横幅区 -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=4000&color=00C2FF&center=true&vCenter=true&width=500&lines=Hi+there+%F0%9F%91%8B;I'm+[你的名字];A+[你的职位/身份]" alt="动态打字标题" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=4000&color=00C2FF&center=true&vCenter=true&width=500&lines=Hi+there+%F0%9F%91%8B;我是+[mochen];一个+[后端开发者]" alt="动态打字标题" />
 </div>
 
 <!-- 关于我 -->
 ## 👨‍💻 关于我
-> *[在这里写一句能代表你个性或技术理念的简短引言，例如：“用代码解决现实问题的创造者”]*
-> 刚刚来到github的小白开发者
+> *[一位刚刚来到代码世界的小白开发者]*
 
-我是mochen，一名来自 [中国山西]的 [后端开发者]。我热衷于 [寻找并尝试好玩的开源项目]。
-目前在广东工业大学计算机科学与技术专业就读，同时在亿讯科技实习
+我是mochen，一名来自 *[中国山西]* 的 *[后端开发者]*。我热衷于 *[寻找并尝试好玩的开源项目]*。  
+目前在广东工业大学计算机科学与技术专业就读，同时在亿讯科技实习  
 
 *   🌱 我目前正在学习 ****[系统运维]****
 *   💡 我对 ****[使用ai工具工作和学习]**** 充满好奇
@@ -35,10 +34,10 @@
 ![VSCode](https://img.shields.io/badge/-VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
 ### 前端开发
-┌─────────────────────────────────────┐
-│    🔒 前端开发区域 - 尚未解锁       │
-│    📚 正在学习中...                 │
-└─────────────────────────────────────┘
+┌─────────────────────────────────────┐  
+│    🔒 前端开发区域 - 尚未解锁       │  
+│    📚 正在学习中...                 │  
+└─────────────────────────────────────┘  
 
 ### 后端开发
 ![SpringBoot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
@@ -47,10 +46,10 @@
 ![OSS](https://img.shields.io/badge/-OSS-4BA2F2?style=for-the-badge&logo=alibabacloud&logoColor=white)
 
 ### 系统运维
-┌─────────────────────────────────────┐
-│   🔒 运维区域 - 尚未解锁            │
-│    📚 正在学习中...                 │
-└─────────────────────────────────────┘
+┌─────────────────────────────────────┐  
+│   🔒 运维区域 - 尚未解锁            │  
+│    📚 正在学习中...                 │  
+└─────────────────────────────────────┘  
 
 ### 工具与平台
 ![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -75,7 +74,9 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=mocheen&theme=github-dark&hide_border=true&area=true" alt="贡献活动图" />
   <br/>
   <!-- 连续提交打卡 -->
-  <img src="https://streak-stats.demolab.com?user=mocheen&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub打卡" />
+    <div align="center">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=mocheen&theme=radical&hide_border=true" alt="GitHub打卡" />
+    </div>
 </div>
 
 <!-- 贪吃蛇动画 - 会吃掉你的贡献点 -->
@@ -84,8 +85,10 @@
 ---
 
 <div align="center">
-  <!-- 访客计数 -->
-  <img src="https://visitor-badge.glitch.me/badge?page_id=你的GitHub用户名.你的仓库名&left_color=green&right_color=red" alt="访客计数" />
+    <!-- 访客计数 -->
+    <div align="center">
+      <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmocheen&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false" alt="访客计数" />
+    </div>
 </div>
 
 <!-- 趣味功能区 -->
