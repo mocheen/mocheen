@@ -84,7 +84,9 @@
 </div>
 
 <!-- 贪吃蛇动画 - 会吃掉你的贡献点 -->
-![Snake animation](https://raw.githubusercontent.com/mocheen/mocheen/output/github-snake.svg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mocheen/mocheen/main/snake.svg" alt="GitHub Snake" />
+</p>
 
 ---
 
