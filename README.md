@@ -78,9 +78,9 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=mocheen&theme=github-dark&hide_border=true&area=true" alt="贡献活动图" />
   <br/>
   <!-- 连续提交打卡 -->
-    <div align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=mocheen&theme=radical&hide_border=true" alt="GitHub打卡" />
-    </div>
+  <div align="center">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=mocheen&theme=radical&hide_border=true" alt="GitHub打卡" />
+  </div>
 </div>
 
 <!-- 贪吃蛇动画 - 会吃掉你的贡献点 -->
