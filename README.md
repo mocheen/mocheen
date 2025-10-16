@@ -1,19 +1,23 @@
 <!-- 横幅区 -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=4000&color=00C2FF&center=true&vCenter=true&width=500&lines=Hi+there+%F0%9F%91%8B;我是+[mochen];一个+[后端开发者]" alt="动态打字标题" />
+  <img 
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=4000&color=00C2FF&center=true&vCenter=true&width=500&lines=Hi+there+👋;I'm+mochen;A+backend+developer" 
+    alt="动态打字标题" 
+    loading="lazy"
+  />
 </div>
 
 <!-- 关于我 -->
 ## 👨‍💻 关于我
-> *[一位刚刚来到代码世界的小白开发者]*
+> *一位刚刚来到代码世界的小白开发者*
 
-我是mochen，一名来自 *[中国山西]* 的 *[后端开发者]*。我热衷于 *[寻找并尝试好玩的开源项目]*。  
+我是mochen，一名来自 *中国山西* 的 *后端开发者*。我热衷于 *寻找并尝试好玩的开源项目*。  
 目前在广东工业大学计算机科学与技术专业就读，同时在亿讯科技实习  
 
-*   🌱 我目前正在学习 ****[系统运维]****
-*   💡 我对 ****[使用ai工具工作和学习]**** 充满好奇
-*   🤝 我希望能参与 ****[社区开源项目]**** 的开发
-*   ⚡ 趣闻：**[我也是一个狂热的主机游戏玩家、天体物理和量子力学爱好者、没有重要的事坚决不出门的小波奇]**
+*   🌱 我目前正在学习 ****系统运维****
+*   💡 我对 ****使用ai工具工作和学习**** 充满好奇
+*   🤝 我希望能参与 ****社区开源项目**** 的开发
+*   ⚡ 趣闻：**我也是一个狂热的主机游戏玩家、天体物理和量子力学爱好者、没有重要的事坚决不出门的小波奇**
 
 ---
 
@@ -34,10 +38,10 @@
 ![VSCode](https://img.shields.io/badge/-VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
 ### 前端开发
-┌─────────────────────────────────────┐  
-│    🔒 前端开发区域 - 尚未解锁       │  
-│    📚 正在学习中...                 │  
-└─────────────────────────────────────┘  
+✨───────────────────────✨  
+  🔒 前端开发区域 - 尚未解锁  
+  📚 正在学习中...  
+✨───────────────────────✨
 
 ### 后端开发
 ![SpringBoot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
@@ -46,10 +50,10 @@
 ![OSS](https://img.shields.io/badge/-OSS-4BA2F2?style=for-the-badge&logo=alibabacloud&logoColor=white)
 
 ### 系统运维
-┌─────────────────────────────────────┐  
-│   🔒 运维区域 - 尚未解锁            │  
-│    📚 正在学习中...                 │  
-└─────────────────────────────────────┘  
+✨───────────────────────✨  
+  🔒 运维区域 - 尚未解锁  
+  📚 正在学习中...  
+✨───────────────────────✨
 
 ### 工具与平台
 ![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -84,12 +88,8 @@
 
 ---
 
-<div align="center">
-    <!-- 访客计数 -->
-    <div align="center">
-      <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmocheen&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false" alt="访客计数" />
-    </div>
-</div>
+![Visitor count](https://komarev.com/ghpvc/?username=mocheen&label=Visitors&color=blue&style=flat)
+
 
 <!-- 趣味功能区 -->
 ## 🎮 游戏角落
