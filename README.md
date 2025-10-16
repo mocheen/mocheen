@@ -84,9 +84,10 @@
 </div>
 
 <!-- 贪吃蛇动画 - 会吃掉你的贡献点 -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mocheen/mocheen/main/snake.svg" alt="GitHub Snake" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/你的用户名/你的用户名/blob/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/你的用户名/你的用户名/blob/output/github-contribution-grid-snake.svg">
+</picture>
 
 ---
 
