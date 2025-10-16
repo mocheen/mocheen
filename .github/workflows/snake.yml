@@ -1,28 +1,33 @@
-name: Generate Snake
+name: generate animation
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # 每6小时更新一次（比每天更频繁）
-  workflow_dispatch:  # 允许手动触发
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+    - master
 
 jobs:
   generate:
+    permissions: 
+      contents: write
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+  
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Generate snake
-        uses: Platane/snk@v3
+      - name: generate github-contribution-grid-snake.svg
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          # 输出到仓库根目录的 snake.svg 文件
-          svg_out_path: snake.svg
-          # 自定义贪吃蛇和背景点颜色（参考anka-afk的配色）
-          color_snake: 'var(--color-foreground)'
-          color_dots: 'var(--color-background)'
-
-      - name: Push changes
-        uses: EndBug/add-and-commit@v9
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+  
+      - name: push github-contribution-grid-snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          message: "Update snake animation"
-          add: "snake.svg"
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
