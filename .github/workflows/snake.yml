@@ -2,29 +2,26 @@ name: Generate snake animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # 每天凌晨运行
-  workflow_dispatch:  # 允许手动触发
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 确保有写入权限
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4  # 使用最新版checkout
 
       - name: Generate snake animation
-        uses: Platane/snk@v3
-        id: snake-gif
+        uses: Platane/snk@latest  # 使用最新版snk
         with:
           github_user_name: ${{ github.repository_owner }}
-          # 可选配置：
-          # svg_out_path: dist/github-snake.svg
-          # 颜色配置
-          # color_snake: '#00ff00'
-          # color_dots: '#000000'
+          svg_out_path: "github-snake.svg"  # 输出到根目录，便于引用
 
       - name: Push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5  # 使用最新版提交工具
         with:
           commit_message: "Update snake animation"
-          file_pattern: "*.svg"
+          file_pattern: "github-snake.svg"  # 明确指定要提交的文件
